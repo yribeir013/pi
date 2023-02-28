@@ -21,10 +21,17 @@ border-bottom:1px solid #16507b;
 }
 .logo{
 color:#16507b;
+font-size:23px;
 }
-.logo h2{
-font-weight:normal;
-font-size:25px;
+.logo a {
+text-decoration:none; 
+}
+.logo a:hover{
+color:#124265;
+border: 2px solid #124265;
+}
+.logo a:visited{
+color:#124265;
 }
 .menu{
 width:80%;

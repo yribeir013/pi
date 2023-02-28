@@ -21,8 +21,17 @@ border-bottom:1px solid #16507b;
 }
 .logo{
 color:#16507b;
-text-decoration:none;
 font-size:23px;
+}
+.logo a {
+text-decoration:none; 
+}
+.logo a:hover{
+color:#124265;
+border: 2px solid #124265;
+}
+.logo a:visited{
+color:#124265;
 }
 .menu{
 width:80%;
@@ -76,8 +85,8 @@ margin:10px 0;
 font-size:20px;
 }
 .diferenciais-single p{
-font-size:13px;
-line-height:15px;
+font-size:19px;
+line-height:20px;
 }
 section .sobre{
 padding:80px 0;
@@ -99,6 +108,7 @@ flex-wrap:wrap;
 .conteudo-sobre p{
 width:48%;
 margin-right:2%;
+font-size:19px;
 }
 @media screen and (max-width: 768px){
 .diferenciais-single{
@@ -135,6 +145,7 @@ flex-wrap:wrap;
 .conteudo-sobre-dois p{
 width:100%;
 text-align:center;
+font-size:19px;
 }
 .diferenciais-dois{
 display:flex;
@@ -156,5 +167,6 @@ font-size:20px;
 }
 .diferenciais-single-dois p{
 font-size:13px;
-line-height:15px;
+line-height:20px;
+font-size:19px;
 }
