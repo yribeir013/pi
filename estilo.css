@@ -21,10 +21,8 @@ border-bottom:1px solid #16507b;
 }
 .logo{
 color:#16507b;
-}
-.logo h2{
-font-weight:normal;
-font-size:25px;
+text-decoration:none;
+font-size:23px;
 }
 .menu{
 width:80%;
@@ -41,16 +39,6 @@ color:#124265;
 border: 2px solid #124265;
 }
 
-/*Section Main */
-
-section.main{
-background-image:url('https://img.freepik.com/fotos-gratis/superficie-abstrata-e-texturas-de-parede-de-pedra-branca-de-concreta_74190-8189.jpg');
-padding:70px 0;
-background-position:center;
-background-size:cover;
-background-repeat:no-repeat;
-background-attachment:fixed;
-}
 .main_centro{
 width:100%;
 margin:20px 0;
@@ -72,7 +60,7 @@ flex-wrap: wrap;
 .diferenciais-single{
 text-align:center;
 border-radius:10px;
-background-color:white;
+background-color:#cccccc;
 width:100%;
 margin:1%;
 padding:20px 50px;
@@ -117,14 +105,17 @@ margin-right:2%;
 width:100%;
 margin-bottom:20px;
 }
-.logo{
-width:20%;
-}
 .conteudo-sobre p{
 margin:10px 20px;
 width:100%;
 }
 }
+@media screen and (max-width: 768px){
+.logo{
+width:20%;
+}
+}
+
 section .sobre-dois{
 padding:80px 0;
 }
@@ -152,7 +143,7 @@ flex-wrap: wrap;
 .diferenciais-single-dois{
 text-align:center;
 border-radius:10px;
-background-color:white;
+background-color:#cccccc;
 width:100%;
 margin:1%;
 padding:20px 50px;
