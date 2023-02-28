@@ -1,0 +1,66 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+.centro{
+max-width:1100px;
+margin: 0 auto;
+padding:0 2%;
+display:flex;
+flex-wrap:wrap;
+}
+.menu-mobile{
+display:none;
+}
+header{
+background-color:white;
+padding:20px 0;
+border-bottom:1px solid #16507b;
+}
+.logo{
+color:#16507b;
+}
+.logo h2{
+font-weight:normal;
+font-size:25px;
+}
+.menu{
+width:80%;
+text-align:right;
+}
+.menu a{
+color:#124265;
+font-size:20px;
+text-decoration:none;
+margin-right:30px;
+}
+.menu a:hover{
+color:#124265;
+border: 2px solid #124265;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+}
+.esquerda{
+flex: 30%;
+background-color:white;
+padding: 20px;
+}
+.conteudo{
+flex: 70%;
+padding: 20px;
+}
+.footer{
+flex: 100%;
+padding: 20px;
+background-color:white;
+text-align: center;
+}
+@media screen and (max-width: 768px){
+.logo{
+width:20%;
+}
+}
